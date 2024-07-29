@@ -27,14 +27,13 @@
 
 - 论文链接：[arxiv.org/abs/2106.00908](https://arxiv.org/abs/2106.00908)
 
-此技术比 `TransMIL` 多了图像分割部分，所以更适合计算资源， 提高分类正确率。
+此技术比 `TransMIL` 多了图像分割部分，所以降低了计算资源， 提高了分类正确率。
 
 流程图如下：
 
 ![示意图](kaggle_UBC-OCEAN-MIL/paper2.png)
 
-获得高分类高分区图由CNN提取特征，而后展平作为序列送入`transformer`进行多实例学习。
-
+获取高概率治病区域后用CNN提取特征，而后展平作为序列送入transformer进行多实例学习。
 代码环境为`kaggle`比赛运行环境，代码使用.ipynb格式。
 
 环境可如下配置：
