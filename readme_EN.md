@@ -1,5 +1,7 @@
 # MIL-Based Multi-Instance Learning Code for Ovarian Cancer Histopathology Image Classification from kaggle_UBC_ocean
 
+**Language:** [中文](readme.md)
+
 Competition Link: [kaggle_UBC_ocean](https://www.kaggle.com/competitions/UBC-OCEAN)
 
 This project provides a method for classifying high-probability cancerous regions in high-resolution WSI images (up to 60000px):
