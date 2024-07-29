@@ -1,6 +1,7 @@
 # MIL-Based Multi-Instance Learning Code for Ovarian Cancer Histopathology Image Classification from kaggle_UBC_ocean
 
-**Language:** [中文](readme.md)
+**Language:** [中文](readme_cn.md)
+**Language:** [![Chinese](https://img.shields.io/badge/Language-中文-blue)](readme_cn.md)
 
 Competition Link: [kaggle_UBC_ocean](https://www.kaggle.com/competitions/UBC-OCEAN)
 
