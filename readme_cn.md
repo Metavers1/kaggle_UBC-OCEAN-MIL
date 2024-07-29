@@ -1,5 +1,5 @@
 # kaggle_UBC_ocean的卵巢癌组织病理学图像分类的MIL多实例学习代码
-**Language:** [English](readme_EN.md)
+**Language:** [English](readme.md)
 
 比赛链接：[kaggle_UBC_ocean](https://www.kaggle.com/competitions/UBC-OCEAN)
 
