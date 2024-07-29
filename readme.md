@@ -1,5 +1,5 @@
 # kaggle_UBC_ocean的卵巢癌组织病理学图像分类的MIL多实例学习代码
-
+**Language:** [English](README_EN.md)
 比赛链接：[kaggle_UBC_ocean](https://www.kaggle.com/competitions/UBC-OCEAN)
 
 本项目提供了对如60000px分辨率大的WSI图像进行高概率癌变区域分类的方法：
