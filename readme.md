@@ -2,7 +2,7 @@
 
 比赛链接：[kaggle_UBC_ocean](https://www.kaggle.com/competitions/UBC-OCEAN)
 
-本项目提供了对60000px大WSI图像高概率癌变区再分类的方法：
+本项目提供了对如60000px分辨率大的WSI图像进行高概率癌变区域分类的方法：
 使用赛方提供的236张mask掩码缩放至缩略图大小，而后使用`train_thumbnails`的WSI缩略图图像进行`U_net`分割网络训练和后得到的分割模型效果如下：
 
 - 其中对于图像 `train_images/22489.png`：
