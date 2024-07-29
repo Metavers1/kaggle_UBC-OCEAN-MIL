@@ -7,7 +7,7 @@
 
 - 其中对于图像 `train_images/22489.png`：
 
-![原图](/oring.png)
+![原图](kaggle_UBC-OCEAN-MIL/oring.png)
 
   使用 `U_net` 进行分割后，得到如下掩码：
 
@@ -15,7 +15,7 @@
 
   对以上掩码导出最大的三块正方形面积，而后进行坐标缩放转换，在对WSI原图对应位置进行裁剪，如下图：
 
-![裁剪图](/WSI_crop.png)
+![裁剪图](kaggle_UBC-OCEAN-MIL/WSI_crop.png)
 
   蓝色线条为包裹分割的癌变区域的最小方块，而后对剩下每个方块进行`1000*1000px`的随机裁剪如绿色方框，裁剪后的图像送入CNN做高概率区域的多实例分类。
 
@@ -23,7 +23,7 @@
 
 流程图如下：
 
-![流程图](/paper1.png)
+![流程图](kaggle_UBC-OCEAN-MIL/paper1.png)
 
 - 论文链接：[arxiv.org/abs/2106.00908](https://arxiv.org/abs/2106.00908)
 
@@ -31,7 +31,7 @@
 
 流程图如下：
 
-![示意图](/paper2.png)
+![示意图](kaggle_UBC-OCEAN-MIL/paper2.png)
 
 获得高分类高分区图由CNN提取特征，而后展平作为序列送入`transformer`进行多实例学习。
 
