@@ -28,7 +28,7 @@ The workflow is as follows:
 
 ![Workflow](kaggle_UBC-OCEAN-MIL/paper1.png)
 
-- Paper Link: [arxiv.org/abs/2106.00908](https://arxiv.org/abs/2106.00908)
+- This diagram is from the transmil paper, which is a link to the transmil paper: [arxiv.org/abs/2106.00908](https://arxiv.org/abs/2106.00908)
 
 This technique includes an image segmentation part compared to `TransMIL`, which reduces computational resources and improves classification accuracy.
 
